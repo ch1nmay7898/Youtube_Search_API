@@ -18,7 +18,7 @@ YT_KEY_SUP = '<Enter Supplementary Key>'
 
 Prepare database.
 ```shell
-cd ytsearch
+cd ..
 python manage.py migrate
 ```
 
