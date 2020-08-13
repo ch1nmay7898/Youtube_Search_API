@@ -1,0 +1,21 @@
+{% extends "search/layout.html" %}
+
+{% block body %}
+    <h1>Videos:</h1>
+    <ul>
+        {% for video in vids %}
+            <li>
+                <h2>
+                    Video {{ video.id }}:
+                </h2>
+                <h3>
+                    Title: {{ video.title }}
+                </h3> 
+                <p>
+                    Description: {{ video.description }}
+                </p>
+                <br>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}
