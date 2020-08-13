@@ -28,8 +28,8 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 
-YT_KEY = 'AIzaSyCIFTvsUA1_eubJtYfC__SeMrHs3212RZg'
-YT_KEY_SUP = 'AIzaSyBJUzeQyxbtQvOnHQCMCqm5Nx1tt6IWGVk'
+YT_KEY = 'Enter API KEY'
+YT_KEY_SUP = 'Enter supplementary Key'
 
 INSTALLED_APPS = [
     'rest_framework',
