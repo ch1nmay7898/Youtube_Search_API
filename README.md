@@ -33,7 +33,7 @@ python manage.py process_tasks
 Go to the URL: `http://127.0.0.1:8000/`
 This is the GET http url for our API.
 
-To fetch the data from databse: add the argument `SavedVids/` to the URL.
+To fetch the data from database: add the argument `SavedVids/` to the URL.
 Data is returned in a paginated response on Django REST framework.
 
 To view the HTML render of data, go to: `http://127.0.0.1:8000/view`
